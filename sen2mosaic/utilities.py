@@ -322,7 +322,7 @@ class LoadScene(object):
         Test that the file of of an appropriate format
         '''
         
-        if self.filename.split('/')[-3].split('.')[-1] == 'SAFE':
+        if self.filename.split('/')[-1].split('.')[-1] == 'SAFE':
             return 'SAFE'
 
         else:
