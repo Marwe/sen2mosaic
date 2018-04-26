@@ -341,6 +341,8 @@ class LoadScene(object):
             level = 2
         elif self.filename.split('/')[-1].split('_')[3] == 'L2A':
             level = 2
+        elif self.filename.split('/')[-1].split('_')[1][-3:] == 'L2A':
+            level = 2
         else:
             level = 1
         
